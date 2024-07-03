@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav ul {
+    list-style: none;
+    color: #fff;
+    background: #000;
+    width: 100%;
+    height: 30px;
+    padding-top: 15px;
+}
+nav ul li {
+    padding-left: 30px;
+    display: inline;
+    cursor: pointer;
+}
+nav ul li:active {
+    cursor: progress;
+}
+section img {
+    margin-left: -390px;
+}
+.img1 {
+    height: 450px;
+    width: 550px;
+    background-size: cover;
+    background-image: url(glass.jpg);
+    margin-top: 50px;
+}
+h1{
+    text-align: center;
+}
+.inner-section {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+.inner-section p {
+    margin: 15px;
+}
