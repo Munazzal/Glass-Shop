@@ -42,3 +42,31 @@ h1{
 .inner-section p {
     margin: 15px;
 }
+.img1 {
+    height: 400px;
+    width: 470px;
+    background: url(glass.jpg);
+    background-size: cover;
+    margin: 15px;
+}
+.img2 {
+    height: 400px;
+    width: 630px;
+    background: url(albela-glass.avif);
+    background-size: cover;
+    margin: 15px;
+}
+.img3 {
+    height: 400px;
+    width: 470px;
+    background: url(download.jpg);
+    background-size: cover;
+    margin: 15px;
+}
+.img4 {
+    height: 400px;
+    width: 470px;
+    background: url(download2.jpg);
+    background-size: cover;
+    margin: 15px;
+}
