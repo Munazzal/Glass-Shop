@@ -4,31 +4,90 @@
     user-select: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-nav ul {
+nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  ul {
+    display: flex;
     list-style: none;
-    color: #fff;
-    background: #000;
-    width: 100%;
-    height: 30px;
-    padding-top: 15px;
-}
-nav ul li {
-    padding-left: 30px;
-    display: inline;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    margin-right: 20px;
     cursor: pointer;
-}
+  }
+  
+  ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  ul li a:hover {
+    color: white;
+  }
+  
+  .checkbtn {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    display: none;
+  }
+  
+  #check {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .checkbtn {
+      display: block;
+      order: 1;
+      margin-right: 20px;
+    }
+  
+    ul {
+      position: fixed;
+      top: 80px;
+      right: -100%;
+      background-color: black;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.3s;
+    }
+  
+    ul li {
+      margin: 20px 0;
+    }
+  
+    ul li a {
+      font-size: 20px;
+    }
+  
+    #check:checked ~ ul {
+      right: 0;
+    }
+  }
 nav ul li:active {
     cursor: progress;
 }
 section img {
     margin-left: -390px;
-}
-.img1 {
-    height: 450px;
-    width: 550px;
-    background-size: cover;
-    background-image: url(glass.jpg);
-    margin-top: 50px;
 }
 h1{
     text-align: center;
@@ -40,13 +99,6 @@ h1{
     padding: auto;
 }
 .inner-section p {
-    margin: 15px;
-}
-.img1 {
-    height: 400px;
-    width: 470px;
-    background: url(glass.jpg);
-    background-size: cover;
     margin: 15px;
 }
 .img2 {
@@ -64,7 +116,7 @@ h1{
     margin: 15px;
 }
 .img4 {
-    height: 400px;
+    height: 1000px;
     width: 470px;
     background: url(download2.jpg);
     background-size: cover;
