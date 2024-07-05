@@ -4,6 +4,19 @@
     user-select: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+html::-webkit-scrollbar {
+  width: 15px; 
+}
+
+html::-webkit-scrollbar-track {
+  background:  linear-gradient(0deg, rgba(255, 0, 0, 1) 0%, rgba(7, 0, 211, 1) 100%);
+}
+
+html::-webkit-scrollbar-thumb {
+  background: transparent;
+  box-shadow: 0px 0px 0px 100vh grey;
+  border-radius: 25px;
+}
 nav {
     background-color: black;
     color: white;
@@ -86,9 +99,6 @@ nav {
 nav ul li:active {
     cursor: progress;
 }
-section img {
-    margin-left: -390px;
-}
 h1{
     text-align: center;
 }
@@ -98,27 +108,27 @@ h1{
     margin: auto;
     padding: auto;
 }
-.inner-section p {
+.inner-section p, h3, .a, .b, .c{
     margin: 15px;
 }
-.img2 {
-    height: 400px;
-    width: 630px;
-    background: url(albela-glass.avif);
-    background-size: cover;
-    margin: 15px;
+.a {
+  height: 220px;
+  width: 220px;
+  max-width: 400px;
+  background: url(glass.jpg);
+  background-size: contain;
 }
-.img3 {
-    height: 400px;
-    width: 470px;
-    background: url(download.jpg);
-    background-size: cover;
-    margin: 15px;
+.b {
+  height: 200px;
+  width: 355px;
+  max-width: 500px;
+  background: url(Albela-Glass.jpg);
+  background-size: contain;
 }
-.img4 {
-    height: 1000px;
-    width: 470px;
-    background: url(download2.jpg);
-    background-size: cover;
-    margin: 15px;
+.c {
+  height: 150px;
+  width: 250px;
+  max-width: 250px;
+  background: url(Albela-Visiting-Card1.jpg);
+  background-size: contain;
 }
