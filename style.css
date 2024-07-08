@@ -9,7 +9,8 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-  background:  linear-gradient(0deg, rgba(255, 0, 0, 1) 0%, rgba(7, 0, 211, 1) 100%);
+  background:  url(https://wallpaperaccess.com/full/1155149.jpg);
+  background-size: cover;
 }
 
 html::-webkit-scrollbar-thumb {
@@ -108,27 +109,6 @@ h1{
     margin: auto;
     padding: auto;
 }
-.inner-section p, h3, .a, .b, .c{
-    margin: 15px;
-}
-.a {
-  height: 220px;
-  width: 220px;
-  max-width: 400px;
-  background: url(glass.jpg);
-  background-size: contain;
-}
-.b {
-  height: 200px;
-  width: 355px;
-  max-width: 500px;
-  background: url(Albela-Glass.jpg);
-  background-size: contain;
-}
-.c {
-  height: 150px;
-  width: 250px;
-  max-width: 250px;
-  background: url(Albela-Visiting-Card1.jpg);
-  background-size: contain;
+.inner-section p, h3, img{
+    margin-left: 15px; 
 }
