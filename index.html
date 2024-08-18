@@ -1,91 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Albela Glass</title>
-    <link rel="icon" href="Untitled-1.jpg">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-</head>
-<body>
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-        </label>
-        <label class="logo">ALBELA GLASS</label>
-        <ul>
-            <li id="home">Home</li>
-            <li id="about">About Me</li>
-            <li id="gallery">Gallery</li>
-            <li id="contact">Contact</li>
-            <li id="other">Others</li>
+    <head>
+        <title>Albela Glass</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <link rel="icon" href="Untitled-1.jpg">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
+        <style>
+            * {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                user-select: none;
+
+            }
+            .navybar {
+                background: #9a2934;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="bg-danger h-50 p-5 text-end">
+            <div class="navbar-brand text-start">
+                <img src="Untitled-2.jpg" alt="Logo" style="height: 50px;  width:50px;" class="rounded-pill">
+            </div>
+            <h1 class="text-light">Albela Glass</h1>
+        </header>
+
+
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs navybar" id="myTab" role="tablist">
+            <li class="nav-item text-bg" role="presentation">
+                <button class="nav-link active text-dark" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
+                    Home
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link text-dark" id="about-tab" data-bs-toggle="tab" data-bs-target="#about" type="button" role="tab" aria-controls="about" aria-selected="false">
+                    About
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link text-dark" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">
+                    Contact
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link text-dark" id="gallery-tab" data-bs-toggle="tab" data-bs-target="#gallery" type="button" role="tab" aria-controls="gallery" aria-selected="false">
+                    Images
+                </button>
+            </li>
         </ul>
-    </nav>
-    <section id="1">
-        <div class="inner-section">
-            <h1>Home</h1>
-            <p>Hi there! I'm MD Alauddin, and my passion lies in the artistry of glasswork. With a keen eye for perfection, I meticulously craft and shape glass into stunning pieces that captivate and inspire. My dedication to this craft extends beyond mere skill—it's a commitment to transforming ideas into exquisite realities through the medium of glass.</p>
-            <br>
+
+
         
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="container">
+                    <h1 class="text-center">Home</h1>
+                Hi there! I'm MD Alauddin, and my heart has always been drawn to the beautiful, delicate world of glasswork. Ever since I was a child, I've been mesmerized by how light dances through glass, creating a magical interplay of colors and reflections. That early fascination turned into a deep passion, and now, I’m fortunate enough to turn that passion into my life's work. For me, glass isn’t just a material—it’s a way to express my creativity and bring a little bit of wonder into the world.
+                <br>
+                I take great pride in the work I do, paying attention to every detail as I craft and shape each piece of glass. Whether I’m working on a simple vase or an intricate decorative piece, I pour my heart into making sure every curve, edge, and line is just right. It’s incredibly satisfying to see an idea take shape in my hands, transforming from a concept into something real and tangible. Every piece I create feels like a small part of me—a reflection of my love for this art and my commitment to sharing it with others.
+                <br>
+                But glasswork isn’t just about skill for me; it’s about connection. It’s about taking an idea—whether it’s mine or someone else’s—and bringing it to life in a way that resonates with people. I love the challenge of pushing the boundaries of what glass can do, experimenting with new techniques, and finding ways to make each piece unique. My goal is always to create something that not only looks beautiful but also tells a story and evokes a sense of wonder.
+                <br>
+                At the end of the day, glasswork is more than just a job—it’s a part of who I am. It’s about finding beauty in the fragile, the delicate, and the everyday, and turning it into something that can be cherished. As I continue on this journey, I’m excited to keep exploring, learning, and creating, always with the hope that my work will bring a little bit of joy and inspiration to those who experience it.</p>
+            <br>
+                </div>
+            </div>
+            <div class="tab-pane" id="about" role="tabpanel" aria-labelledby="about-tab">
+                <div class="container">
+                    <h1 class="text-center">About</h1>
+                    <p>My name is MD ALAUDDIN, and I am passionate about the art of glasswork. Working with glass allows me to create beautiful and functional pieces that reflect both creativity and craftsmanship. Each day in my workshop is a journey of precision and imagination, where molten glass transforms into delicate forms under my skilled hands. From intricate sculptures to practical household items, I find joy in every step of the glassmaking process. My dedication to this ancient craft drives me to constantly refine my techniques and explore new possibilities, ensuring that each piece I create is a testament to both tradition and innovation in the world of glass art.. I can do many works of Glass such as: </p>
+                    <ol type="1" style="margin-left: 30px;">
+                        <li>Aluminium Sliding Window, Door, Partition</li>
+                        <li>Toughened Glass Door, Partiton</li>
+                        <li>Shower Cubicles (Sell/Service)</li>
+                        <li>Iron Window Glass Clay & Repotting</li>
+                        <li>Glass Selicon</li>
+                        <li>Glass Clay</li>
+                        <li>Iron Window Handle & Stray</li>
+                        <li>Glass Flim Pasting</li>
+                        <li>Aluminium Sliding Rollear Change</li>
+                        <li>Custom Touch Mirror Design(Mirror with led light and a touch Sensor)</li>
+                        <li>Glass Shelf (Corner/Middle)</li>
+                        <li>Acrylic Fiver Sheet</li>
+                        <li>Fiver Mirror</li>
+                        <li>Bathroom Mirror</li>
+                        <li>Bathroom Cabinet with Mirror</li>
+                        <li>Glass Etching Design</li>
+                        <li>Old Touch Mirror (Service)</li>
+                    </ol>
+                    <p>and many more things.</p>
+                </div>
+            </div>
+            <div class="tab-pane" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="container">
+                    <h1 class="text-center">Contact</h1>
+                    <p><b>EMAIL:</b> alauddinmd915@gmail.com <br></p>
+                    <p><b>PHONE:</b> +91 9903688786 <br></p>
+                    <p><b>WHATSAPP:</b> +91 9903688786 <br></p>
+                    <p><b>ADDRESS:</b> 1A CHANDRA NATH ROY ROAD KOLKATA- 700039, WEST BENGAL, INDIA</p>
+                    <br>
+                    <button class="btn btn-primary" herf="tel:9903688786">&phone; Call Now</button>
+                </div>
+            </div>
+            <div class="tab-pane" id="gallery" role="tabpanel" aria-labelledby="gallery-tab">
+                <div class="container">
+                    <h1 class="text-center">Images</h1>
+                    <img src="Albela-Glass.jpg" class="rounded" width="100%" height="auto">
+                    <br>
+                    <br>
+                    <img src="Albela-Visiting-Card1.jpg" class="rounded" width="100%" height="auto">
+                    <br>
+                    <br>
+                    <img src="albela-glass-and-aluminium-sliding-tiljala-kolkata-aluminium-section-wholesalers-5o6jwolb2d.jpg" class="rounded" width="100%" height="auto">
+                    <br>
+                    <br>
+                    <img src="albela-glass-and-aluminium-sliding-tiljala-kolkata-aluminium-section-wholesalers-c0qpc0x59a.avif" class="rounded" width="100%" height="auto">
+                    <br>
+                    <br>
+                    <img src="albela-glass-and-aluminium-sliding-tiljala-kolkata-aluminium-section-wholesalers-ec2h90qz1z.jpg" class="rounded" width="100%" height="auto">
+                    <br>
+                    <br>
+                    <img src="albela-glass-and-aluminium-sliding-tiljala-kolkata-aluminium-section-wholesalers-susg7akj7c.jpg" class="rounded" width="100%" height="auto">
+                    <br>
+                    <br>
+                    <img src="albela-glass-and-aluminium-sliding-tiljala-kolkata-aluminium-section-wholesalers-vj41e0mtp3.jpg" class="rounded" width="100%" height="auto">
+                    <br>
+                    <br>
+                    <img src="albela-glass-and-aluminium-sliding-tiljala-kolkata-aluminium-section-wholesalers-u53na2iojm.avif" class="rounded" width="100%" height="auto">
+                </div>
+            </div>
         </div>
-    </section>
-    <section id="2">
-        <div class="inner-section">
-            <h1>About Me</h1>
-            <p>My name is MD ALAUDDIN, and I am passionate about the art of glasswork. Working with glass allows me to create beautiful and functional pieces that reflect both creativity and craftsmanship. Each day in my workshop is a journey of precision and imagination, where molten glass transforms into delicate forms under my skilled hands. From intricate sculptures to practical household items, I find joy in every step of the glassmaking process. My dedication to this ancient craft drives me to constantly refine my techniques and explore new possibilities, ensuring that each piece I create is a testament to both tradition and innovation in the world of glass art.. I can do many works of Glass such as: </p>
-            <ol type="1" style="margin-left: 30px;">
-                <li>Aluminium Sliding Window, Door, Partition</li>
-                <li>Toughened Glass Door, Partiton</li>
-                <li>Shower Cubicles (Sell/Service)</li>
-                <li>Iron Window Glass Clay & Repotting</li>
-                <li>Glass Selicon</li>
-                <li>Glass CLay</li>
-                <li>Iron Window Handle & Stray</li>
-                <li>Glass Flim Pasting</li>
-                <li>Aluminium Sliding Rollear Change</li>
-                <li>Custom Touch Mirror Design(Mirror with led light and a touch Sensor)</li>
-                <li>Glass Shelf (Corner/Middle)</li>
-                <li>Acrylic Fiver Sheet</li>
-                <li>Fiver Mirror</li>
-                <li>Bathroom Mirror</li>
-                <li>Bathroom Cabinet with Mirror</li>
-                <li>Glass Etching Design</li>
-                <li>Old Touch Mirror (Service)</li>
-            </ol>
-            <p>and many more things.</p>
-        </div>
-    </section>
-    <section id="3">
-        <div class="inner-section">
-            <h1>Gallery</h1>
-            <img src="albela-glass-and-aluminium-sliding-tiljala-kolkata-aluminium-section-wholesalers-c0qpc0x59a.avif" alt="Image" height="400" width="250" title="Glass Flower Pot" class="one">
-            <img src="albela-glass-and-aluminium-sliding-tiljala-kolkata-aluminium-section-wholesalers-ld5g7mxt17.jpeg" alt="Image" height="350" width="350" title="Glass Shelf" class="two">
-            <img src="albela-glass-and-aluminium-sliding-tiljala-kolkata-aluminium-section-wholesalers-susg7akj7c.jpg" alt="Image" height="600" title="Led Mirror" class="three">
-            <img src="albela-glass-and-aluminium-sliding-tiljala-kolkata-aluminium-section-wholesalers-u53na2iojm.avif" alt="Image" height="700" width="690" title="Led Mirror" class="four">
-            <img src="Albela-Glass.jpg" alt="Image" height="400" width="685" title="Front View of the Shop" class="five">
-            <img src="Albela-Visiting-Card1.jpg" alt="Image"  title="Visiting Card" class="six">
-            <img src="glass.jpg" alt="Image" height="600" width="820" title="Glass Shelfs">
-            <img src="albela-glass-and-aluminium-sliding-tiljala-kolkata-aluminium-section-wholesalers-ec2h90qz1z.jpg" alt="Image" height="400" width="570" title="Glass Dinning Table">
-        </div>
-    </section>
-    <section id="4">
-        <div class="inner-section">
-            <h1>Contact</h1>
-            <p>
-                <b>EMAIL:</b> alauddinmd915@gmail.com <br>
-                <b>PHONE:</b> +91 9903688786 <br>
-                <b>WHATSAPP:</b> +91 9903688786 <br>
-                <b>ADDRESS:</b> 1A CHANDRA NATH ROY ROAD KOLKATA- 700039, WEST BENGAL, INDIA
-            </p>
-        </div>
-    </section>
-    <section id="5">
-        <div class="inner-section">
-            <h1>In Developing COMING SOON</h1>
-        </div>
-    </section>
-    <script src="script.js"></script>
-</body>
+        
+        
+        
+
+        <!-- JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" crossorigin="anonymous" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    </body>
 </html>
